@@ -1,0 +1,202 @@
+[
+  {
+    "name": "AgentTool",
+    "files": 14,
+    "lines": 6074
+  },
+  {
+    "name": "AskUserQuestionTool",
+    "files": 2,
+    "lines": 310
+  },
+  {
+    "name": "BashTool",
+    "files": 18,
+    "lines": 12414
+  },
+  {
+    "name": "BriefTool",
+    "files": 5,
+    "lines": 611
+  },
+  {
+    "name": "ConfigTool",
+    "files": 5,
+    "lines": 810
+  },
+  {
+    "name": "EnterPlanModeTool",
+    "files": 4,
+    "lines": 330
+  },
+  {
+    "name": "EnterWorktreeTool",
+    "files": 4,
+    "lines": 178
+  },
+  {
+    "name": "ExitPlanModeTool",
+    "files": 4,
+    "lines": 606
+  },
+  {
+    "name": "ExitWorktreeTool",
+    "files": 4,
+    "lines": 387
+  },
+  {
+    "name": "FileEditTool",
+    "files": 6,
+    "lines": 1813
+  },
+  {
+    "name": "FileReadTool",
+    "files": 5,
+    "lines": 1603
+  },
+  {
+    "name": "FileWriteTool",
+    "files": 3,
+    "lines": 857
+  },
+  {
+    "name": "GlobTool",
+    "files": 3,
+    "lines": 268
+  },
+  {
+    "name": "GrepTool",
+    "files": 3,
+    "lines": 796
+  },
+  {
+    "name": "LSPTool",
+    "files": 6,
+    "lines": 2006
+  },
+  {
+    "name": "ListMcpResourcesTool",
+    "files": 3,
+    "lines": 172
+  },
+  {
+    "name": "MCPTool",
+    "files": 4,
+    "lines": 1087
+  },
+  {
+    "name": "McpAuthTool",
+    "files": 1,
+    "lines": 215
+  },
+  {
+    "name": "NotebookEditTool",
+    "files": 4,
+    "lines": 588
+  },
+  {
+    "name": "PowerShellTool",
+    "files": 14,
+    "lines": 8961
+  },
+  {
+    "name": "REPLTool",
+    "files": 2,
+    "lines": 85
+  },
+  {
+    "name": "ReadMcpResourceTool",
+    "files": 3,
+    "lines": 211
+  },
+  {
+    "name": "RemoteTriggerTool",
+    "files": 3,
+    "lines": 193
+  },
+  {
+    "name": "ScheduleCronTool",
+    "files": 5,
+    "lines": 544
+  },
+  {
+    "name": "SendMessageTool",
+    "files": 4,
+    "lines": 998
+  },
+  {
+    "name": "SkillTool",
+    "files": 4,
+    "lines": 1478
+  },
+  {
+    "name": "SleepTool",
+    "files": 1,
+    "lines": 17
+  },
+  {
+    "name": "SyntheticOutputTool",
+    "files": 1,
+    "lines": 163
+  },
+  {
+    "name": "TaskCreateTool",
+    "files": 3,
+    "lines": 195
+  },
+  {
+    "name": "TaskGetTool",
+    "files": 3,
+    "lines": 153
+  },
+  {
+    "name": "TaskListTool",
+    "files": 3,
+    "lines": 166
+  },
+  {
+    "name": "TaskOutputTool",
+    "files": 2,
+    "lines": 585
+  },
+  {
+    "name": "TaskStopTool",
+    "files": 3,
+    "lines": 180
+  },
+  {
+    "name": "TaskUpdateTool",
+    "files": 3,
+    "lines": 484
+  },
+  {
+    "name": "TeamCreateTool",
+    "files": 4,
+    "lines": 360
+  },
+  {
+    "name": "TeamDeleteTool",
+    "files": 4,
+    "lines": 176
+  },
+  {
+    "name": "TodoWriteTool",
+    "files": 3,
+    "lines": 300
+  },
+  {
+    "name": "ToolSearchTool",
+    "files": 3,
+    "lines": 593
+  },
+  {
+    "name": "WebFetchTool",
+    "files": 5,
+    "lines": 1132
+  },
+  {
+    "name": "WebSearchTool",
+    "files": 3,
+    "lines": 570
+  }
+]
