@@ -5,11 +5,11 @@ import Sidebar from '../components/Sidebar.jsx'
 import MarkdownRenderer from '../components/MarkdownRenderer.jsx'
 import PrevNext from '../components/PrevNext.jsx'
 
-// Lazily load all .md files from nucleo/ (parent directory of site/)
-const mdFiles = import.meta.glob('../../nucleo/*.md', { as: 'raw' })
+// Lazily load all .md files from nucleo/ (repo root, three levels up from site/src/pages/)
+const mdFiles = import.meta.glob('../../../nucleo/*.md', { query: '?raw', import: 'default' })
 
 function keyFor(file) {
-  return `../../nucleo/${file}.md`
+  return `../../../nucleo/${file}.md`
 }
 
 export default function Chapter() {

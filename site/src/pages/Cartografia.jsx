@@ -1,9 +1,9 @@
 import { useParams } from 'react-router-dom'
 import { Suspense, lazy } from 'react'
 
-// Map slugs to lazy-loaded components from the existing cartografia/ directory
+// Map slugs to lazy-loaded components from the existing cartografia/ directory (repo root)
 const cartografiaMap = {
-  'c0-visao-geral': lazy(() => import('../../cartografia/c0-visao-geral.jsx')),
+  'c0-visao-geral': lazy(() => import('../../../cartografia/c0-visao-geral.jsx')),
 }
 
 export default function Cartografia() {
