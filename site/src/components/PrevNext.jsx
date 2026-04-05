@@ -19,7 +19,7 @@ export default function PrevNext({ currentSlug }) {
           <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>← Anterior</span>
           <span style={{ fontSize: '0.9rem', color: 'var(--accent-2)', fontWeight: 600 }}>{prev.code} — {prev.title}</span>
         </a>
-      ) : <div />}
+      ) : null}
 
       {next ? (
         <a href={`#/nucleo/${next.slug}`} style={{
@@ -29,7 +29,7 @@ export default function PrevNext({ currentSlug }) {
           <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>Próximo →</span>
           <span style={{ fontSize: '0.9rem', color: 'var(--accent-2)', fontWeight: 600 }}>{next.code} — {next.title}</span>
         </a>
-      ) : <div />}
+      ) : null}
     </div>
   )
 }

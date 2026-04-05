@@ -15,7 +15,7 @@ export default function NavBar() {
       <div style={{ display: 'flex', gap: '20px', color: 'var(--text-muted)', fontSize: '0.88rem' }}>
         <a href="#/nucleo/n01-arquitetura" style={{ color: 'inherit', textDecoration: 'none' }}>Núcleo</a>
         <a href="#/cartografias/c0-visao-geral" style={{ color: 'inherit', textDecoration: 'none' }}>Cartografias</a>
-        <a href="https://github.com/Ricardo-Kaminski/anatomia-agente-ia" target="_blank" rel="noopener" style={{ color: 'inherit', textDecoration: 'none' }}>GitHub</a>
+        <a href="https://github.com/Ricardo-Kaminski/anatomia-agente-ia" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>GitHub</a>
       </div>
       <div style={{ marginLeft: 'auto' }}>
         <a href="#/nucleo/n01-arquitetura" style={{
