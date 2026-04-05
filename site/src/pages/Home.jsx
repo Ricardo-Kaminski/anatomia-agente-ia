@@ -91,6 +91,7 @@ export default function Home() {
               <a
                 key={ch.slug}
                 href={`#/nucleo/${ch.slug}`}
+                className={i !== 0 ? 'chapter-link' : ''}
                 style={{
                   display: 'flex', alignItems: 'center', gap: '12px',
                   padding: '8px 12px', borderRadius: '7px',
@@ -98,8 +99,6 @@ export default function Home() {
                   background: i === 0 ? 'var(--surface)' : 'transparent',
                   border: i === 0 ? '1px solid var(--border)' : '1px solid transparent',
                 }}
-                onMouseEnter={e => { if (i !== 0) e.currentTarget.style.background = 'var(--surface)' }}
-                onMouseLeave={e => { if (i !== 0) e.currentTarget.style.background = 'transparent' }}
               >
                 <span style={{
                   fontFamily: 'var(--font-mono)', fontSize: '0.72rem',

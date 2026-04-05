@@ -77,3 +77,7 @@ a:hover { text-decoration: underline; }
 .md-content td { border: 1px solid var(--border); padding: 0.5rem 0.75rem; font-size: 0.9rem; color: var(--text-muted); }
 .md-content tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
 .md-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+/* ── Home chapter list hover ─────────────────────────── */
+.chapter-link { transition: background 0.15s; }
+.chapter-link:hover { background: var(--surface) !important; }
