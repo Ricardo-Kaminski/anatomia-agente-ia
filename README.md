@@ -3,7 +3,7 @@
 
 > **O maior leak acidental da história dos LLMs — analisado em português.**
 
-Em março de 2025, o código-fonte completo do Claude Code (512K linhas de TypeScript, sourcemap de 59.8MB) foi exposto acidentalmente via npm. Em 30 minutos estava no Hacker News. Em dias, o fork `claw-code` tinha 100K stars.
+Em março de 2026, o código-fonte completo do Claude Code (512K linhas de TypeScript, sourcemap de 59.8MB) foi exposto acidentalmente via npm. Em 30 minutos estava no Hacker News. Em dias, o fork `claw-code` tinha 100K stars.
 
 Este projeto é a **primeira análise sistemática em português** desse artefato histórico: engenharia reversa técnica combinada com análise de governança, regulação e accountability de IA.
 
